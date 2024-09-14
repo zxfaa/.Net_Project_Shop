@@ -1,0 +1,119 @@
+﻿
+.carousel-indicators li {
+    background: #C4C4BE;
+}
+
+.carousel-indicators li.active {
+    background: #FE980F;
+}
+
+.item h1 {
+    color: #B4B1AB;
+    font-family: abel;
+    font-size: 48px;
+    margin-top: 115px;
+}
+
+.item h1 span {
+    color: #FE980F;
+}
+
+.item h2 {
+    color: #363432;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+
+ .item p {
+     color: #363432;
+     font-size: 16px;
+     font-weight: 300;
+}
+
+
+about_section {
+    width: 100%;
+    float: left;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #7c2c0c;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #535353;
+    margin: 0px;
+}
+.about_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.design_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/blog-bg.png);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+
+.design_taital {
+    width: 100%;
+    color: #FE980F;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.design_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #535353;
+    text-align: center;
+    margin: 0px;
+}
+
+.design_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+
+
+.edit {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.edit a {
+    text-decoration: none;
+    background: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid darkgrey;
+    margin: 0 3px;
+    color: #286090;
+}
+
+.edit a:hover {
+    background: #286090;
+    color: white !important;
+}

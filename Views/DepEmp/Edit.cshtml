@@ -1,0 +1,52 @@
+﻿@model final.Models.Employee
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+
+
+@{
+    ViewBag.Title = "Edit";
+}
+@* 建立修改欄位所須的表單*@
+
+
+@using (Html.BeginForm())
+{
+    <h3> 修改商品資料</h3>
+    @* 建立修改員工資料表格*@
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.EmpName)
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.EmpName)
+                @Html.ValidationMessageFor(model => model.EmpName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.EmpPhone)
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.EmpPhone)
+                @Html.ValidationMessageFor(model => model.EmpPhone)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.DepId)
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.DepId)
+                @Html.ValidationMessageFor(model => model.DepId)
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value=" 修改" />
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
